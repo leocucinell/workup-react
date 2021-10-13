@@ -1,0 +1,47 @@
+.intro-page___container{
+    width: 100vw;
+    height: 100vh;
+    margin:0;
+    font-family: "Roboto", sans-serif;
+}
+
+.intro-grid___container{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1.9fr 1fr;
+    grid-template-rows: 1.8fr 1fr;
+}
+
+/* Top Left container */
+.intro-greeting___container{
+    display: flex;
+    flex-direction: column;
+    background-color: #7392B7;
+    color: white;
+    padding: 40px 0 0 50px;
+    gap: 60px;
+}
+#greeting-title{
+    
+}
+.intro-articles___container{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+
+
+/* Top Right Container */
+.intro-auth___container{
+    background-color: #FCEFEF;
+}
+
+
+
+/* Bottom Container */
+.intro-routing___container{
+    background-color: #5D576B;
+    grid-column-end: span 2;
+}

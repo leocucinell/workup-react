@@ -1,0 +1,8 @@
+article{
+    width: 300px;
+}
+
+article > img {
+    width: 90%;
+    height: autopx;
+}
